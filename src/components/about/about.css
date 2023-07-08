@@ -1,0 +1,65 @@
+.experience{display:flex;justify-content:space-around;align-items:center;flex-direction:column;color:var(--color-text)}
+.about{
+    display:flex;justify-content:center;align-items:center;gap:4rem;background:var(--color-section);
+    padding:8rem 5rem;
+}
+.home-img {
+    display: flex;justify-content: center;align-items: center;
+}
+.home-img img {
+    width: 45vh;height: 65vh;animation:floatImage 4s ease-in-out infinite;
+}
+
+
+.about-content h2{text-align:left;line-height:1.4;font-size:2.5rem;font-weight:600;color:var(--color-text)}
+.about-content h3{font-size:2.6rem;color:var(--main-color)}
+.about-content p{font-size:1.2rem;margin:1rem 0 2rem;}
+
+/* service section Css */
+.service{
+    display:flex;flex-direction:column;justify-content:center;align-items:center;padding:7rem 6rem;
+}
+.service h2{margin-bottom:5rem;font-size:3rem;}
+.service-container{display:flex;justify-content:center;align-items:center;flex-wrap:wrap;gap:1.8rem;margin:1rem 4rem}
+.service-box{
+    flex:1 1 20rem;background:var(--color-section);padding:1rem 1rem 5rem;border-radius:1.5rem;text-align:center;
+    border:.15rem solid var(--color-section);transition:.5s ease;
+}
+ .service-box:hover{
+    transform:scale(1.05);border-color:var(--main-color);
+}
+.service-box i{font-size:4rem;color:var(--main-color);}
+.service-box h3{font-size:1.5rem;}
+.service-box p{font-size:1rem;margin:1rem 0 3rem;}
+
+@media screen and (max-width: 1050px) {
+    .about-content p{
+        font-size:0.9rem;
+    }
+    .about-content h2{font-size:2.4rem;}
+    .about-contnt h3{font-size:2rem}
+}
+@media screen and (max-width: 950px) {
+    .about{flex-direction:column;padding:6rem 5rem;}
+    .service{flex-direction:column;gap:4rem;}
+    .service-container{margin:0 4rem;}
+    .home-img img{display:none;}
+    .about-content p{
+        font-size:0.9rem;
+    }
+    .about-content h2{font-size:2.4rem;}
+    .about-contnt h3{font-size:2rem}
+}
+@media screen and (max-width: 650px) {
+    .about{padding:6rem 3rem}
+    .service{flex-direction:column;gap:4rem;}
+    .service-container{margin:0 0rem;}
+    .service-box i{font-size:3rem;}
+    .service-box p{font-size:0.8rem;}
+    .service-box h3{font-size:1.5rem;}
+}
+@media screen and (max-width: 550px) {
+    .about{padding:6rem 2rem;}
+    .about-content h3{font-size:2rem;font-weight:600;}
+    .service{padding:6rem 3rem;}
+}

@@ -1,0 +1,45 @@
+.project-box{
+    position:relative;border-radius:1.5rem;box-shadow:0 0 1rem var(--bg-color);overflow:hidden;display:flex;
+}
+.project-box img{width:100%;transition:0.5s ease;}
+.project-box:hover img{transform:scale(1.1);}
+.project-box .project-layer{
+    position:absolute;width:100%;height:100%;bottom:0;left:0;
+    display: flex;justify-content:center;align-items:center;flex-direction:column;text-align:center;padding:0 4rem;
+    transform:translateY(100%);transition:.5s ease;
+    background: rgb(0,0,0);
+background: -moz-linear-gradient(90deg, rgba(0,0,0,0.5) 0%, rgba(212,80,121,0.5) 72%);
+background: -webkit-linear-gradient(90deg, rgba(0,0,0,0.5) 0%, rgba(212,80,121,0.5) 72%);
+background: linear-gradient(90deg, rgba(0,0,0,0.5) 0%, rgba(212,80,121,0.5) 72%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#d45079",GradientType=1);
+}
+.project-box:hover .project-layer{transform:translateY(0);}
+.project-layer h4{font-size:2rem;color:var(--color-bg)}
+.project-layer p{margin:0.3rem 0 1rem;font-size:1rem;color:var(--color-text);}
+.project-layer a{display:inline-flex;justify-content: center;align-items: center;width:3rem;border-radius:50%;height:3rem;background:white;}
+.project-layer a i{font-size:1.5rem;color:var(--color-bg);}
+@media screen and (max-width: 1250px) {
+    .project-box .project-layer{ padding:0 2rem;}
+    .project-layer a i{font-size:1.2rem;}
+    .project-layer a{width:2rem;height:2rem;}
+    .project-layer h4{font-size:1.4rem;}
+    .project-layer p{font-size:0.8rem;}
+}
+@media screen and (max-width: 750px) {
+    .project-layer h4{font-size:1.3rem;}
+    .project-layer p{font-size:0.6rem;}
+    .project-layer a{width:1.5rem;height:1.5rem;}
+    .project-layer a i{font-size:1.1rem;}
+}
+@media screen and (max-width: 650px) {
+    .project-layer a i{font-size:1.5rem;}
+    .project-layer a{width:2.5rem;height:2.5rem;}
+    .project-layer h4{font-size:1.6rem;}
+    .project-layer p{font-size:1rem;}
+}
+@media screen and (max-width: 460px) {
+    .project-layer h4{font-size:1.3rem;}
+    .project-layer p{font-size:0.6rem;}
+    .project-layer a{width:1.5rem;height:1.5rem;}
+    .project-layer a i{font-size:1.1rem;}
+}

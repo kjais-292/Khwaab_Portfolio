@@ -1,0 +1,7 @@
+button{
+
+    display:inline-block;padding:0.6rem 1.3rem;background:var(--main-color);border-radius:3rem;
+    box-shadow:0 0 1rem var(--main-color);font-size:1rem;color:var(--color-sec);
+    letter-spacing:.08rem;font-weight:600;transition:.5s ease;
+}
+.btn:hover{box-shadow:none;color:var(--color-bg);cursor:pointer;}
