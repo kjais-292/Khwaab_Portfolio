@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/kjais-292/Khwaab_Portfolio/static/css/main.38b8be0e.css",
+    "main.js": "/kjais-292/Khwaab_Portfolio/static/js/main.f164b7f8.js",
+    "static/media/portfolio1.jpg": "/kjais-292/Khwaab_Portfolio/static/media/portfolio1.a9aac069a6f2fb6efa7f.jpg",
+    "static/media/home.jpg": "/kjais-292/Khwaab_Portfolio/static/media/home.3955f0428ecf1a94b0fa.jpg",
+    "index.html": "/kjais-292/Khwaab_Portfolio/index.html",
+    "main.38b8be0e.css.map": "/kjais-292/Khwaab_Portfolio/static/css/main.38b8be0e.css.map",
+    "main.f164b7f8.js.map": "/kjais-292/Khwaab_Portfolio/static/js/main.f164b7f8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.38b8be0e.css",
+    "static/js/main.f164b7f8.js"
+  ]
+}
